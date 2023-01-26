@@ -18,4 +18,8 @@ document.getElementById("cvcf").innerHTML=inp5
 document.getElementById("inputs").style.display="none"
 document.getElementById("thanks").style.display="block"
 
+
+var audio = new Audio('success-1-6297.mp3');
+audio.play();
+
 }

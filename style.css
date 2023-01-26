@@ -1,0 +1,236 @@
+body{
+    margin: 0px;
+    
+}
+.container{
+
+    display: flex;
+    
+    flex-direction: row;
+
+}
+
+.left{
+    
+    height: 700px;
+    width: 300px;
+    
+
+}
+
+.right{
+    
+    height: 700px;
+    width: 900px;
+    
+    
+    
+}
+#leftmob{
+    display: none;
+    position: absolute;
+}
+#leftimg{
+    width: 300px;
+    height: 100vh;
+    position: absolute;
+    
+}
+
+#inputs{
+    margin-left: 400px;
+    margin-top: 200px;
+    font-size: small;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    
+    
+}
+
+#name{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 184, 184);
+    margin-bottom: 30px;
+}
+
+#number{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 184, 184);
+    margin-bottom: 30px;
+}
+
+#ddmmyy{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 184, 184);
+}
+#cvc{
+    width: 92px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 184, 184);
+    margin-bottom: 40px;
+}
+
+.btn{
+    width: 260px;
+    height: 40px;
+    background-color: black;
+    border-radius: 7px;
+    color: rgb(209, 209, 209);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.final{
+    
+    position: absolute;
+}
+
+#ddmmyy2{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 184, 184);
+}
+
+#thanks{
+    margin-left: 400px;
+    margin-top: 300px;
+    display: none;
+}
+
+#cardfront{
+    margin-top: 150px;
+    margin-left: 100px;
+    position: absolute;
+}
+#cardback{
+    margin-top: 430px;
+    position: absolute;
+    margin-left: 200px;
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+    margin-left: 100px;
+    width: 500px;
+    height: 100px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#numberf{
+    font-size: 2rem;
+    margin-top: -30px;
+}
+
+#namef{
+    margin-top:30px ;
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#mon{
+    margin-left: 260px;
+    margin-top: -30px;
+}
+#yer{
+    margin-left: 300px;
+    margin-top: -21px;
+}
+#cvcf{
+    margin-top: 160px;
+    margin-left: 470px;
+    color: black;
+}
+@media only screen and (max-width: 600px) {
+    .left{
+        height: 200px;
+        width: 50px;
+        
+    }
+    .right{
+        
+        margin-left: 0px;
+        height: 60%;
+        width: 100vw;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+    }
+
+    #leftimg{
+        display: none;
+    }
+
+    #leftmob{
+        display: block;
+        height:200px ;
+        width: 100%;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+
+    #inputs{
+        margin-left: 20%;
+        margin-top: 100px;
+        font-size: small;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 500;
+        height: 50%;
+        
+        
+    }
+
+    #thanks{
+        margin-left: 7%;
+        margin-top: 100px;
+    }
+    #cardfront{
+        height: 140px;
+        border: 1px solid yellow;
+    }
+    #cardback{
+        height: 130px;
+        margin-top: 55px;
+        margin-left: 160px;
+    }
+    #numberf{
+        margin-top: -80px;
+        margin-left: 10px;
+        font-size: medium;
+    }
+    #namef{
+        margin-top: 5px;
+        font-size: smaller;
+        margin-left: 12px;
+    }
+    #mon{
+        margin-top: -17px;
+        font-size: smaller;
+        margin-left: 200px;
+    }
+    #yer{
+        margin-top: -18px;
+        font-size: smaller;
+        margin-left: 220px;
+    }
+    #cvcf{
+        margin-top: -175px;
+        font-size: smaller;
+        margin-left: 240px;
+    }
+    .left{
+        width: 10px;
+    }
+  }
+

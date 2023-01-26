@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X Bank</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            
+
+            <img id="leftimg" src="images/bg-main-desktop.png" alt="">
+            <img id="leftmob" src="images/bg-main-mobile.png" alt="">
+            <img id="cardfront" src="images/bg-card-front.png" alt="">
+            <img id="cardback" src="images/bg-card-back.png" alt="">
+            <div class="final">
+
+                <div id="numberf">0000 0000 0000 0000</div>
+                <div id="namef">Roshan</div>
+                <div id="mon">00</div>
+                <div id="yer">0000</div>
+                <div id="cvcf">0000</div>
+
+
+            </div>
+
+        </div>
+        <div class="right">
+            <div class="thank">
+                <img id="thanks" src="images/thankyou.png" alt="">
+            </div>
+            <div id="inputs">
+            <label id="cardholdername" for="name">CARDHOLDER NAME</label><br>
+            <input id="name" type="text" placeholder="e.g jane Appieseed"><br>
+
+            <label id="cardholdernumber" for="number">CARD NUMBER</label><br>
+            <input id="number" type="number" placeholder="e.g 1535 5654 7453 0000"><br>
+
+            <label id="lableddmmyy" for="ddmmyy">EXP .DATE--(MM/YY)--CVC</label><br>
+            <input id="ddmmyy" type="number" placeholder="MM">
+            <input id="ddmmyy2" type="number" placeholder="YY">
+            <input id="cvc" type="number" placeholder="e.g 123"><br>
+            <button class="btn">
+                Confirm
+            </button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
